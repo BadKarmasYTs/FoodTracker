@@ -1,58 +1,21 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background: #fefefe;
-  color: #333;
+  background: #f9f9f9;
+  color: #222;
 }
-
-h1 {
-  text-align: center;
-  font-size: 2em;
+h1 { text-align: center; font-size: 2em; margin-bottom: 10px; }
+.goal-setup, .goal-setup input, .goal-setup button {
+  display: block; text-align: center; margin: 5px auto;
 }
-
-.goal-setup {
-  text-align: center;
-  margin-bottom: 20px;
+input, button {
+  padding: 10px; font-size: 16px; border-radius: 6px; border: 1px solid #ccc;
 }
-
-input {
-  padding: 10px;
-  font-size: 16px;
-  width: 120px;
-}
-
 button {
-  margin-top: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 6px;
+  background: #28a745; color: #fff; border: none; cursor: pointer;
 }
-
-#scanner {
-  margin-top: 10px;
-  width: 100%;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#result {
-  text-align: center;
-  margin: 15px 0;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 15px;
-}
-
-ul li {
-  padding: 6px 0;
-}
+#scanner { max-width: 400px; margin: 10px auto; }
+#result { text-align: center; margin: 10px 0; }
+ul { list-style: none; padding: 0; }
+ul li { padding: 4px 0; }
+canvas { max-width: 100%; margin-top: 15px; }
